@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+:root {
+  font-size: 0.9rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.MuiDataGrid-cell--textCenter,
+.MuiDataGrid-columnHeaderTitleContainer {
+  justify-content: flex-start !important;
+}
+.MuiDataGrid-selectedRowCount,
+.MuiDataGrid-columnSeparator {
+  visibility: hidden !important;
+}
+.MuiDataGrid-withBorderColor {
+  border-top: none !important;
+}
+.MuiDataGrid-columnHeader {
+  background-color: #F4F1F7;
+}
